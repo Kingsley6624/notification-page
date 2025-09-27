@@ -45,7 +45,7 @@ const NotificationCard = ({
           <span className="text-[var(--gray-500)] basis-full">
             {TimeRanges}
           </span>
-          {isClicked && (
+          {message && isClicked && (
             <div className="basis-full p-3 border border-[var(--gray-600)] rounded-md mt-2">
               <p className="text-[var(--gray-600)]">{message}</p>
             </div>
